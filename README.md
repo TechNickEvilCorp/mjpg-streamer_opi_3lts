@@ -20,6 +20,10 @@ sudo make install
 ```bash
 sudo mjpg_streamer -i "input_uvc.so -d /dev/video1 -r 640x480 -f 14" -o "output_http.so"
 ```
+Tou have seen steam on
+```bash
+yourip/webcam/?action=stream
+```
 
 ## C. if all ok then activate him in systemd
 
